@@ -43,5 +43,9 @@ public class PlayerMovement : MonoBehaviour
             if (target == stops.Count - 1) { target = 0; }
             else { target++; }
         }
+
+        animator.SetFloat("Face_x", velocity.x);
+        animator.SetFloat("Face_y", velocity.y);
+        animator.SetFloat("Speed", speed);
     }
 }
