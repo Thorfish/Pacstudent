@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 03a72f862965376428f951dab1978c6b
+guid: 0fa2afc7a17fcff4192e9090b2b11a6a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -107,7 +107,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hatman_0
+      name: Saxman All_0
       rect:
         serializedVersion: 2
         x: 0
@@ -121,14 +121,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65b6943749000814881f8a4c9ed39019
-      internalID: 1588725931
+      spriteID: 8d297064d9fd67545b68b0e4af717e03
+      internalID: 1531718654
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hatman_1
+      name: Saxman All_1
       rect:
         serializedVersion: 2
         x: 32
@@ -142,14 +142,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b6f557e786629d48bb9a9fa782ea12c
-      internalID: -417146776
+      spriteID: ef23393410f64ce4fabcad7cd6d37e20
+      internalID: 640595945
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hatman_2
+      name: Saxman All_2
       rect:
         serializedVersion: 2
         x: 64
@@ -163,14 +163,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c961aa93a5a0fd349be50cd1e23278e9
-      internalID: -1826213515
+      spriteID: d2487cef12cb85c4488c22296ef7e3b9
+      internalID: -1448089030
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hatman_3
+      name: Saxman All_3
       rect:
         serializedVersion: 2
         x: 96
@@ -184,14 +184,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5793874bc92782a47983b1913e59d672
-      internalID: -402365339
+      spriteID: c83d889e1c3529b4cb2329ec1b601147
+      internalID: -1090171792
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hatman_4
+      name: Saxman All_4
       rect:
         serializedVersion: 2
         x: 128
@@ -205,14 +205,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4bc1678589b63a47b8c0ad0bf34b7e4
-      internalID: 1962048734
+      spriteID: 18b043d532ab89148bd2a10a88ea458c
+      internalID: -799021922
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hatman_5
+      name: Saxman All_5
       rect:
         serializedVersion: 2
         x: 160
@@ -226,14 +226,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64e286b2e4eca0d40ac1e4799918a778
-      internalID: -1093035911
+      spriteID: a0e1ef9e5fb4fe549acfaf955e2d0604
+      internalID: 1986829407
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hatman_6
+      name: Saxman All_6
       rect:
         serializedVersion: 2
         x: 192
@@ -247,14 +247,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe2fc7bd4e29fcc4aa0e99b7c7bc3199
-      internalID: 1713908993
+      spriteID: e2e9160e4c20e0445b4b490c6cfec6ee
+      internalID: 1856018709
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hatman_7
+      name: Saxman All_7
       rect:
         serializedVersion: 2
         x: 224
@@ -268,14 +268,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 303adccaa6157a642aaacbcae4166c6d
-      internalID: 129512449
+      spriteID: a6bc75fca8e43fd4a8c0ba137b8e4238
+      internalID: 2118249197
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hatman_8
+      name: Saxman All_8
       rect:
         serializedVersion: 2
         x: 256
@@ -289,14 +289,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59d17e6d99e34a9458f8da167de3f7d7
-      internalID: 2086529758
+      spriteID: 5f985de280fb72c4b92d8c9a9f453e79
+      internalID: 1903740255
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hatman_9
+      name: Saxman All_9
       rect:
         serializedVersion: 2
         x: 288
@@ -310,14 +310,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ddcd446c57ac55e42af8e6738c5a32d4
-      internalID: 244571438
+      spriteID: bc1cf837adfcc8943bdb87d6ed661b4e
+      internalID: 542819172
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hatman_10
+      name: Saxman All_10
       rect:
         serializedVersion: 2
         x: 320
@@ -331,14 +331,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69c75f8eb65167f4e847e1ca8dcca9b7
-      internalID: 931740715
+      spriteID: 68ff3b9b09a711347b4afeeb5d22d06b
+      internalID: -1963345176
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hatman_11
+      name: Saxman All_11
       rect:
         serializedVersion: 2
         x: 352
@@ -352,14 +352,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ed0716258eb0f14aab2e816079eab66
-      internalID: -2083093494
+      spriteID: 5f33d2b546fd8314c8e69ec0ec59a125
+      internalID: -685273929
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hatman_12
+      name: Saxman All_12
       rect:
         serializedVersion: 2
         x: 384
@@ -373,14 +373,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a81831fbefca5b4f8bfb9647fa730fd
-      internalID: -1393288325
+      spriteID: 5198147a1bc978e47bec878f5fb25c1f
+      internalID: -404832162
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hatman_13
+      name: Saxman All_13
       rect:
         serializedVersion: 2
         x: 416
@@ -394,14 +394,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: adfadfb8a42104246829b6f1d2935e84
-      internalID: 689430475
+      spriteID: 1eec1a5b22ec7504084ab011eedb456a
+      internalID: 1263238601
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hatman_14
+      name: Saxman All_14
       rect:
         serializedVersion: 2
         x: 448
@@ -415,14 +415,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a1c5018c77adcc4eaf08493fc77ca89
-      internalID: 1232710101
+      spriteID: f0c3470d0bb38f04c91f4953722cb0de
+      internalID: -906787992
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hatman_15
+      name: Saxman All_15
       rect:
         serializedVersion: 2
         x: 480
@@ -436,14 +436,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0828c822428ff614fbb879996ab483b5
-      internalID: 1894141641
+      spriteID: 5c479f811c789d3428fcb5b9c0bef89f
+      internalID: 992062934
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hatman_16
+      name: Saxman All_16
       rect:
         serializedVersion: 2
         x: 512
@@ -457,14 +457,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 525ce99beb477fd489f36de4c1188121
-      internalID: -1169545901
+      spriteID: c8102ea83730b9545a765b4f66729830
+      internalID: -1010575704
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hatman_17
+      name: Saxman All_17
       rect:
         serializedVersion: 2
         x: 544
@@ -478,14 +478,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c60fa716ded7edb468cdb7b06727758e
-      internalID: 904274281
+      spriteID: 1df895072c4458649ab0f3a83dba8865
+      internalID: -415062047
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hatman_18
+      name: Saxman All_18
       rect:
         serializedVersion: 2
         x: 576
@@ -499,14 +499,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9cb8a9a4783c76a49943da566a9cd038
-      internalID: -687094063
+      spriteID: 0f2217e4851e996409e3083e413ee2f7
+      internalID: 848937964
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hatman_19
+      name: Saxman All_19
       rect:
         serializedVersion: 2
         x: 608
@@ -520,14 +520,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 242a9032bb52baa48b230479f55ad515
-      internalID: 146293646
+      spriteID: 9bc5b35cf0a454b42b378ef2527b392d
+      internalID: 1145075253
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hatman_20
+      name: Saxman All_20
       rect:
         serializedVersion: 2
         x: 640
@@ -541,14 +541,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6793fe1e79c52534e91c87dcd45535c4
-      internalID: 1688179970
+      spriteID: dc6728f3f9bc35c4b84dfe8eefd55fb7
+      internalID: 1116824207
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hatman_21
+      name: Saxman All_21
       rect:
         serializedVersion: 2
         x: 672
@@ -562,14 +562,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5e8a2f1541462f43872fa8f3e8528f7
-      internalID: 92083680
+      spriteID: 4ac833b284719f6439fc7925b9320e6b
+      internalID: -1652504088
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hatman_22
+      name: Saxman All_22
       rect:
         serializedVersion: 2
         x: 704
@@ -583,14 +583,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85addff0a4ae1bd4e97388528586f6f4
-      internalID: -961869476
+      spriteID: 513913dde4696de4bb36248a254f84f8
+      internalID: 556701210
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hatman_23
+      name: Saxman All_23
       rect:
         serializedVersion: 2
         x: 736
@@ -604,14 +604,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82a4f9b9970ec7c428ad1621248c71cd
-      internalID: 1375318385
+      spriteID: 190b94d3f3d7ed842a445f2bb60c9ef0
+      internalID: -1221028461
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hatman_24
+      name: Saxman All_24
       rect:
         serializedVersion: 2
         x: 768
@@ -625,14 +625,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 130256bfa1308ea449adc2c71ba24ca0
-      internalID: 616716754
+      spriteID: 72388a7958bec714cb130decbf826ab6
+      internalID: 599319401
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hatman_25
+      name: Saxman All_25
       rect:
         serializedVersion: 2
         x: 800
@@ -646,14 +646,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2b27d5c09a5e7d4e97f16cc8cfd734d
-      internalID: 693815448
+      spriteID: db6d94c7febd7c9469a942f14bd1333e
+      internalID: 500569980
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hatman_26
+      name: Saxman All_26
       rect:
         serializedVersion: 2
         x: 832
@@ -667,14 +667,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8e79bd396f69e94f97922f75e3d86b0
-      internalID: 1546449276
+      spriteID: 7494dd1063490ea4db8f24c97faf6753
+      internalID: 1954808083
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hatman_27
+      name: Saxman All_27
       rect:
         serializedVersion: 2
         x: 864
@@ -688,8 +688,134 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8bac815227577f409d108a86936640d
-      internalID: -852420845
+      spriteID: 89615506f71bcde4b90c3dd32872cf68
+      internalID: 731577218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saxman All_28
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da72d623690dfc94fb81dee8db809347
+      internalID: 1969642433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saxman All_29
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc41a5594da8d1f40b770a9388b9e8c0
+      internalID: -901821923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saxman All_30
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6901c171a1c9fd14ea9ec711d9c6ada8
+      internalID: -1619709489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saxman All_31
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca81de4ad45218c4882970dddbeff68a
+      internalID: 1212445324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saxman All_32
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 391b57ed8a888c449892f2ac778113a6
+      internalID: 227542117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saxman All_33
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4b38a4818f31e4dbfbc329bf70040d
+      internalID: 1709219088
       vertices: []
       indices: 
       edges: []
@@ -705,34 +831,40 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Hatman_0: 1588725931
-      Hatman_1: -417146776
-      Hatman_10: 931740715
-      Hatman_11: -2083093494
-      Hatman_12: -1393288325
-      Hatman_13: 689430475
-      Hatman_14: 1232710101
-      Hatman_15: 1894141641
-      Hatman_16: -1169545901
-      Hatman_17: 904274281
-      Hatman_18: -687094063
-      Hatman_19: 146293646
-      Hatman_2: -1826213515
-      Hatman_20: 1688179970
-      Hatman_21: 92083680
-      Hatman_22: -961869476
-      Hatman_23: 1375318385
-      Hatman_24: 616716754
-      Hatman_25: 693815448
-      Hatman_26: 1546449276
-      Hatman_27: -852420845
-      Hatman_3: -402365339
-      Hatman_4: 1962048734
-      Hatman_5: -1093035911
-      Hatman_6: 1713908993
-      Hatman_7: 129512449
-      Hatman_8: 2086529758
-      Hatman_9: 244571438
+      Saxman All_0: 1531718654
+      Saxman All_1: 640595945
+      Saxman All_10: -1963345176
+      Saxman All_11: -685273929
+      Saxman All_12: -404832162
+      Saxman All_13: 1263238601
+      Saxman All_14: -906787992
+      Saxman All_15: 992062934
+      Saxman All_16: -1010575704
+      Saxman All_17: -415062047
+      Saxman All_18: 848937964
+      Saxman All_19: 1145075253
+      Saxman All_2: -1448089030
+      Saxman All_20: 1116824207
+      Saxman All_21: -1652504088
+      Saxman All_22: 556701210
+      Saxman All_23: -1221028461
+      Saxman All_24: 599319401
+      Saxman All_25: 500569980
+      Saxman All_26: 1954808083
+      Saxman All_27: 731577218
+      Saxman All_28: 1969642433
+      Saxman All_29: -901821923
+      Saxman All_3: -1090171792
+      Saxman All_30: -1619709489
+      Saxman All_31: 1212445324
+      Saxman All_32: 227542117
+      Saxman All_33: 1709219088
+      Saxman All_4: -799021922
+      Saxman All_5: 1986829407
+      Saxman All_6: 1856018709
+      Saxman All_7: 2118249197
+      Saxman All_8: 1903740255
+      Saxman All_9: 542819172
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
