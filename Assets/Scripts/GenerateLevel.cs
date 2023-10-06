@@ -22,7 +22,7 @@ public class GenerateLevel : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //loop through tilemap
+        //loop through tilemap and place pellet game objects
         int z = pellets.cellBounds.z;
         for (int x = pellets.cellBounds.x; x < pellets.cellBounds.xMax; x++)
         {
@@ -40,15 +40,14 @@ public class GenerateLevel : MonoBehaviour
                     }
                 }
             }
-            
         }
+        //No longer need pellet tilemap
         Destroy(pellets.gameObject);
     }
 
     // Update is called once per frame
     void Update()
     {
-        //Place Pellets
-        
+                
     }
 }

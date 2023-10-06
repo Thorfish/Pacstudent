@@ -29,7 +29,6 @@ public class PlayerMovement : MonoBehaviour
         speed = distanceSum / duration;
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
         velocity = (stops[target].position - transform.position).normalized * speed;
