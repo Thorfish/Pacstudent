@@ -30,7 +30,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         velocity = (stops[target].position - transform.position).normalized * speed;
         if (Vector2.Distance(transform.position, stops[target].position) > speed)
