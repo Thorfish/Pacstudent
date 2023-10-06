@@ -123,6 +123,66 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &15028801
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 15028803}
+  - component: {fileID: 15028802}
+  m_Layer: 0
+  m_Name: Level Generator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &15028802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15028801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e6931ed78794a94e820aba56acf1220, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walls: {fileID: 891847353}
+  pellets: {fileID: 66276285}
+  wallTiles:
+  - {fileID: 11400000, guid: 43e3644b2d7229343a903254820ef0a1, type: 2}
+  - {fileID: 11400000, guid: 4302b3397f308b44faec60e790f0c3ee, type: 2}
+  - {fileID: 11400000, guid: a4213ff554d509c46b83d95673b54ff7, type: 2}
+  - {fileID: 11400000, guid: 8e861a91fa533d24c9947c43d431eb97, type: 2}
+  - {fileID: 11400000, guid: 1f63743d4e85fbb4a8f2f9dc3551d5cb, type: 2}
+  - {fileID: 11400000, guid: e745c6eced021a240b2fe0c8f8e8326d, type: 2}
+  - {fileID: 11400000, guid: d0ec5e4f97d3afc43aabbf4a8d824e9f, type: 2}
+  - {fileID: 11400000, guid: 64e789f8f045e374fb8c3cadab57d03c, type: 2}
+  - {fileID: 11400000, guid: 19f1aaff7d8f9da4ebe3dc5a70fc06e7, type: 2}
+  pelletTiles:
+  - {fileID: 11400000, guid: 7d962cf9c9430ec4daf939f6b3817789, type: 2}
+  - {fileID: 11400000, guid: b110311b7e20f8642bd3acfa4bb74f1d, type: 2}
+  powerPellet: {fileID: 8232790852740848489, guid: 958210d9667b1b947bdb22a04bc5d2c4, type: 3}
+--- !u!4 &15028803
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15028801}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &66276282
 GameObject:
   m_ObjectHideFlags: 0
@@ -8002,9 +8062,9 @@ Tilemap:
   - first: {x: 1, y: -3, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 8
-      m_TileSpriteIndex: 8
-      m_TileMatrixIndex: 0
+      m_TileIndex: 7
+      m_TileSpriteIndex: 7
+      m_TileMatrixIndex: 2
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
@@ -8332,9 +8392,9 @@ Tilemap:
   - first: {x: 8, y: -2, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 8
-      m_TileSpriteIndex: 8
-      m_TileMatrixIndex: 2
+      m_TileIndex: 7
+      m_TileSpriteIndex: 7
+      m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
@@ -10225,9 +10285,9 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: d0ec5e4f97d3afc43aabbf4a8d824e9f, type: 2}
   - m_RefCount: 184
     m_Data: {fileID: 11400000, guid: e745c6eced021a240b2fe0c8f8e8326d, type: 2}
-  - m_RefCount: 90
+  - m_RefCount: 92
     m_Data: {fileID: 11400000, guid: 1f63743d4e85fbb4a8f2f9dc3551d5cb, type: 2}
-  - m_RefCount: 10
+  - m_RefCount: 8
     m_Data: {fileID: 11400000, guid: 8e861a91fa533d24c9947c43d431eb97, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 304
@@ -10244,9 +10304,9 @@ Tilemap:
     m_Data: {fileID: 1499167661, guid: 2ddddb1eca180214bae52f13cbbd60d0, type: 3}
   - m_RefCount: 184
     m_Data: {fileID: 1022658870, guid: 2ddddb1eca180214bae52f13cbbd60d0, type: 3}
-  - m_RefCount: 90
+  - m_RefCount: 92
     m_Data: {fileID: 243629974, guid: 2ddddb1eca180214bae52f13cbbd60d0, type: 3}
-  - m_RefCount: 10
+  - m_RefCount: 8
     m_Data: {fileID: -689862925, guid: 2ddddb1eca180214bae52f13cbbd60d0, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 114
