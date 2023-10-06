@@ -17,7 +17,7 @@ public class GenerateLevel : MonoBehaviour
     private TileBase[] pelletTiles;
 
     [SerializeField]
-    private GameObject powerPellet;
+    private GameObject[] pelletObjects;
 
     // Start is called before the first frame update
     void Start()
@@ -30,15 +30,19 @@ public class GenerateLevel : MonoBehaviour
             {
                 Vector3Int point = new Vector3Int(x, y, z);
                 if (pellets.HasTile(point)) {
-                    if (pellets.GetTile(point) == pelletTiles[1])
+                    if (pellets.GetTile(point) == pelletTiles[0])
                     {
-                        Instantiate(powerPellet, point+pellets.tileAnchor, Quaternion.identity);
+                        Instantiate(pelletObjects[0], point + pellets.tileAnchor, Quaternion.identity);
+                    }
+                    else
+                    {
+                        Instantiate(pelletObjects[1], point + pellets.tileAnchor, Quaternion.identity);
                     }
                 }
             }
             
         }
-        pellets.ClearAllTiles();
+        Destroy(pellets.gameObject);
     }
 
     // Update is called once per frame
