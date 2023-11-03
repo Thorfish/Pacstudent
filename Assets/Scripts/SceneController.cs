@@ -9,4 +9,8 @@ public class SceneController : MonoBehaviour
     {
         SceneManager.LoadScene(0, LoadSceneMode.Single);
     }
+    public void GoToLevel()
+    {
+        SceneManager.LoadScene(1, LoadSceneMode.Single);
+    }
 }
