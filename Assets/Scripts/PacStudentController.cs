@@ -13,6 +13,8 @@ public class PacStudentController : MonoBehaviour
     private AudioClip walkSfx;
     [SerializeField]
     private AudioClip bumpSfx;
+    [SerializeField]
+    private ParticleSystem particleSystem;
 
     private Vector3Int gridPosition;
     private Vector3 velocity, target;
@@ -74,6 +76,7 @@ public class PacStudentController : MonoBehaviour
             {
                 currentInput = lastInput;
                 currentInputDir = lastInputDir;
+                particleSystem.transform.rotation = Quaternion.Euler(90*lastInputDir.y, -90*lastInputDir.x, 0);
                 target += lastInputDir;
                 velocity = new Vector3(lastInputDir.x * speed, lastInputDir.y * speed, 0);
             }
@@ -90,6 +93,11 @@ public class PacStudentController : MonoBehaviour
 
         if (isMoving)
         {
+            if (!particleSystem.isPlaying)
+            {
+                particleSystem.Play();
+            }
+
             if (!audioPlayer.isPlaying)
             {
                 audioPlayer.clip = walkSfx;
@@ -99,6 +107,11 @@ public class PacStudentController : MonoBehaviour
         }
         else
         {
+            if (particleSystem.isPlaying)
+            {
+                particleSystem.Stop();
+            }
+
             if (canBump)
             {
                 canBump = false;
@@ -112,5 +125,6 @@ public class PacStudentController : MonoBehaviour
         //Set Animation Variables
         animator.SetFloat("Face_x", velocity.x);
         animator.SetFloat("Face_y", velocity.y);
+        animator.SetBool("IsMoving", isMoving);
     }
 }
