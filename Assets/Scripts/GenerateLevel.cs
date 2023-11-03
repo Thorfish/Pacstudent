@@ -32,11 +32,13 @@ public class GenerateLevel : MonoBehaviour
                 if (pellets.HasTile(point)) {
                     if (pellets.GetTile(point) == pelletTiles[0])
                     {
-                        Instantiate(pelletObjects[0], point + pellets.tileAnchor, Quaternion.identity);
+                        var pellet = Instantiate(pelletObjects[0], point + pellets.tileAnchor, Quaternion.identity) as GameObject;
+                        pellet.transform.SetParent(gameObject.transform, false);
                     }
                     else
                     {
-                        Instantiate(pelletObjects[1], point + pellets.tileAnchor, Quaternion.identity);
+                        var pellet = Instantiate(pelletObjects[1], point + pellets.tileAnchor, Quaternion.identity) as GameObject;
+                        pellet.transform.SetParent(gameObject.transform, false);
                     }
                 }
             }
