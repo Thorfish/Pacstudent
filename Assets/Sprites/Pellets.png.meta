@@ -121,8 +121,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ac2f6c8e4b65674484009a816867617
-      internalID: 116579201
+      spriteID: 67ce89b489bfd404b87a3cadce0ca061
+      internalID: 326181645
       vertices: []
       indices: 
       edges: []
@@ -142,8 +142,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f2ee53b454540e42b445eac2b5d86f2
-      internalID: -76802653
+      spriteID: 33b5e5a4c3c1d8743b3437f412784d5e
+      internalID: -1460000435
       vertices: []
       indices: 
       edges: []
@@ -159,8 +159,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Pellets_0: 116579201
-      Pellets_1: -76802653
+      Pellets_0: 326181645
+      Pellets_1: -1460000435
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
