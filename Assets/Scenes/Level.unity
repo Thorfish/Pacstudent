@@ -1202,7 +1202,6 @@ GameObject:
   - component: {fileID: 891847350}
   - component: {fileID: 891847353}
   - component: {fileID: 891847352}
-  - component: {fileID: 891847351}
   m_Layer: 0
   m_Name: Walls
   m_TagString: Untagged
@@ -1225,42 +1224,6 @@ Transform:
   m_Father: {fileID: 372342084}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!19719996 &891847351
-TilemapCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 891847349}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_MaximumTileChangeCount: 1000
-  m_ExtrusionFactor: 0
-  m_UseDelaunayMesh: 0
 --- !u!483693784 &891847352
 TilemapRenderer:
   m_ObjectHideFlags: 0
@@ -12327,6 +12290,37 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2089097589542679841, guid: 362c19019c2aec144aa406890500ca27, type: 3}
   m_PrefabInstance: {fileID: 1266498773}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1801098142
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1801098143}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1801098143
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801098142}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -13, y: -26, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1882881496
 GameObject:
   m_ObjectHideFlags: 0
@@ -12729,6 +12723,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 908c4e03970f4164c9f4eab84830f10d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.05
+  walls: {fileID: 891847353}
 --- !u!82 &2118046738
 AudioSource:
   m_ObjectHideFlags: 0
